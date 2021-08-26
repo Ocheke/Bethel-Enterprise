@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <div style="text-align: center;">
-        <h1>register</h1>
+    <div style="text-align: center;font-size: 40px;">
+        <h1>registration</h1>
         <h3>fill in the details below</h3>
-        <a href="index.html">homepage</a>
-    </div>
+        <a href="index.html" class="btn btn-warning">homepage</a>
+        </div>
+        <br><div style="text-align: center;" class="container">
+            <form action="">
+                <div>
+                <select name="select country" class="form form-control" required id="">
+                    <option value="">select your country</option>
+                    <option value="">algeanistan</option>
+                    <option value="">spain</option>
+                    <option value="">nigeria</option>
+                    <option value="">united kindom</option>
+                    <option value="">france</option>
+                    <option value="">british</option>
+                    <option value="">ghana</option>
+                    <option value="">china</option>
+                    <option value="">korea</option>
+                    <option value="">philipian</option>
+                    <option value="">jerusalem</option>
 
-    <div style="text-align: center;">
-        <form action="">
-            <div>
-                <input type="email" name="email " placeholder="type your email" style="width: 500px;">
-            </div>
-            <div>
-                <br><input type="password" placeholder="password" style="width: 500px;">
-            </div>
-            <div>
-                <br><button style="background-color: blue
-                .color: rgb(0, 255, 64);">submit</button>
-            </div>
-        </form>
-    </div>
+
+                
+                </select>
+                </div><br>
+                <div>
+                    <input type="email" name="email" placeholder="type your email" class="form-control" required>
+                </div>
+                <div>
+                    <br><input type="password" placeholder="password" class="form-control" required>
+                </div>
+                <div>
+                    <br><button class="btn btn-warning"> 
+                        submit
+                    </button>
+                </div>
+            </form>
+        </div>
 </body>
 </html>
